@@ -33,4 +33,4 @@ var roommates = [
 
 module.exports = roommates;
 // roomates is the object. scores is an array of numbers that will be scored and compared
-//  to what the user puts in the form.
+//  to what the user puts in the form. This is the json database
