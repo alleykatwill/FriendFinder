@@ -17,14 +17,14 @@ module.exports = function(app) {
       roommateDifference: 1000
     };
 
-    // To take the result of the user's survey POST and parse it
+    // Result of the user's survey POST and parse it
     var userData = req.body;
     var userScores = userData.scores;
-    // To take the results of the user's name and photo, other than the survey questions, to post and parse it
+    // Eesults of the user's name and photo, other than the survey questions, to post and parse it
     var userName = userData.name;
     var userPhoto = userData.photo;
 
-    // The variable used to calculate the difference b/n the user's socres and the scores of each user
+    // calculate the difference between scores
     var totalDifference = 0;
 
     //loop through the roommate data array of objects to get each roommate scores
